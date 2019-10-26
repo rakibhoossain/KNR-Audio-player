@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>KNR Audio player</title>
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <link rel="icon" href="favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <div class="knr_palyer_pl_play">
+         <div class="audio-image"></div>
+         <div class="audio-player">
+            <div class="audio-info text-center">
+               <span class="artist text-bold"></span> - 
+               <span class="title"></span>
+            </div>
+            <input class="volume" type="range" min="0" max="10" value="5">
+            <div class="knr_control">
+               <div class="buttons">
+                  <img class="prev" src="images/prev.png">
+                  <img class="play" src="images/play.png">
+                  <img class="pause" src="images/pause.png">
+                  <img class="stop" src="images/stop.png">
+                  <img class="next" src="images/next.png">
+               </div>
+            </div>
+            <div class="tracker">
+               <div class="progress-bar stripes">
+                  <span class="progress-bar-inner progress"></span>
+               </div>
+               <span class="duration">0:00</span>
+            </div>
+            <ul class="playlist hidden">
+               <li song="http://182.160.110.180:1020/;stream.mp3" cover="http://radiodhoni.fm/wp-content/uploads/2017/04/Radio-Dhoni-Logo-100-100.png" artist="Live">Radio Dhoni</li>
+               <li song="https://dl.sumirbd.site/files/sfd79/39304/Humma_Humma(sumirbd.mobi).mp3" cover="https://a10.gaanacdn.com/images/albums/57/1832657/crop_175x175_1832657.jpg?version=9" artist="AR Rahman">Humma Humma</li>
+               <li song="https://dl.sumirbd.site/files/sfd7/3391/Hum_Hain_Is_Pal(sumirbd.mobi).mp3" cover="https://a10.gaanacdn.com/images/albums/86/49986/crop_175x175_49986.jpg" artist="AR Rahman">Hum Hain Is Pal</li>
+            </ul>
+         </div>
+      </div>
+      <script src="js/jquery-2.1.4.min.js"></script>
+      <script src="js/main.js"></script>
+   </body>
+</html>
