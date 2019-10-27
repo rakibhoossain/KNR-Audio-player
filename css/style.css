@@ -9,6 +9,7 @@ body {
   background: #a7a7a7;
 }
 
+/*Playlist player*/
 .knr_palyer_pl_play {
   width: 330px;
   min-height: 400px;
@@ -166,14 +167,18 @@ body {
 }
 
 .knr_palyer_pl_play .duration {
-  padding: 4px 8px;
-  background: #000;
-  color: #fff;
-  border-radius: 5px;
+    padding: 4px 8px;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    width: 60px;
+    text-align: center;
 }
 
 .knr_palyer_pl_play .playlist {
   list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .knr_palyer_pl_play .playlist li {
